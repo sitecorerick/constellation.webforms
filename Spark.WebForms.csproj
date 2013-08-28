@@ -54,6 +54,16 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spark.Html\Spark.Html.csproj">
+      <Project>{c3e6a31f-081f-48b0-8b9e-9d8488938eb7}</Project>
+      <Name>Spark.Html</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spark.Web\Spark.Web.csproj">
+      <Project>{dffbd8bc-3f2e-487b-80a1-18553bee4e08}</Project>
+      <Name>Spark.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -47,6 +47,8 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ControlExtensions.cs" />
+    <Compile Include="Controls\HttpResponseNotFound.cs" />
+    <Compile Include="Controls\HttpResponseStatus.cs" />
     <Compile Include="Controls\PaginationControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepeaterExtensions.cs" />

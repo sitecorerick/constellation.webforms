@@ -35,6 +35,12 @@
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
+    <Reference Include="Spark.Html">
+      <HintPath>packages\Spark.Html.1.0.5141.21250\lib\net45\Spark.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="Spark.Web">
+      <HintPath>packages\Spark.Web.1.0.5141.28331\lib\net45\Spark.Web.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
@@ -56,17 +62,13 @@
     <Compile Include="RepeaterExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Spark.WebForms.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Spark.Html\Spark.Html.csproj">
-      <Project>{c3e6a31f-081f-48b0-8b9e-9d8488938eb7}</Project>
-      <Name>Spark.Html</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Spark.Web\Spark.Web.csproj">
-      <Project>{dffbd8bc-3f2e-487b-80a1-18553bee4e08}</Project>
-      <Name>Spark.Web</Name>
-    </ProjectReference>
+    <Content Include="Spark.WebForms.License.txt" />
+    <Content Include="Spark.Html.License.txt" />
+    <Content Include="Spark.Web.License.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

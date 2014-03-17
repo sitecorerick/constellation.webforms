@@ -1,4 +1,4 @@
-﻿namespace Spark.WebForms.Controls
+﻿namespace Constellation.WebForms.Controls
 {
 	/// <summary>
 	/// A Rendering that sets the status of the response to "404: Not Found".

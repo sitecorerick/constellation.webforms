@@ -1,4 +1,4 @@
-﻿namespace Spark.WebForms
+﻿namespace Constellation.WebForms
 {
 	using System.Collections.Generic;
 	using System.Linq;

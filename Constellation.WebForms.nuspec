@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+	<id>$id$</id>
+	<version>$version$</version>
+	<title>$title$</title>
+	<authors>Richard J. Cabral</authors>
+	<owners>Richard J. Cabral</owners>
+	<projectUrl>https://github.com/sitecorerick/constellation.webforms</projectUrl>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<summary>A collection of useful ASP.NET WebForms shims</summary>
+	<description>
+		HttpResponse - Two controls that can be mounted on CMS-hosted pages to correctly respond with 404 headers.
+		
+		CompressedViewStatePage - Uses SharpZipLib to significantly reduce ViewState size on the delivered document.
+		
+		PaginationControl - Simple control to manage the pagination of a multi-page result set.
+	</description>
+	<releaseNotes>Initial NuGet release.</releaseNotes>
+	<copyright>Copyright 2014</copyright>
+	<tags>Sitecore</tags>
+  </metadata>
+</package>

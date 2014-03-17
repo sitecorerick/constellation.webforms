@@ -1,4 +1,4 @@
-﻿namespace Spark.WebForms.Controls
+﻿namespace Constellation.WebForms.Controls
 {
 	using System;
 	using System.Globalization;
@@ -6,9 +6,9 @@
 	using System.Web.UI;
 	using System.Web.UI.WebControls;
 
-	using Spark.Html;
-	using Spark.Web;
-	using Spark.Web.Pagination;
+	using Constellation.Html;
+	using Constellation.Web;
+	using Constellation.Web.Pagination;
 
 	/// <summary>
 	/// Represents the WebControl implementation of a PaginationControl.

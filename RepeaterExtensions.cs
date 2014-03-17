@@ -1,4 +1,4 @@
-﻿namespace Spark.WebForms
+﻿namespace Constellation.WebForms
 {
 	using System.Web.UI.WebControls;
 

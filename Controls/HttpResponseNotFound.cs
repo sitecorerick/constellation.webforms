@@ -9,7 +9,6 @@
 		/// Initializes a new instance of the <see cref="HttpResponseNotFound"/> class.
 		/// </summary>
 		public HttpResponseNotFound()
-			: base()
 		{
 			this.StatusCode = 404;
 			this.StatusDescription = "Page not found";

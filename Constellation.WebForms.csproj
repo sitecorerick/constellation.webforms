@@ -32,13 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Constellation.Html, Version=1.5.5208.23634, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Constellation.Html, Version=3.0.5519.21831, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Constellation.Html.1.5.5208.23634\lib\net45\Constellation.Html.dll</HintPath>
+      <HintPath>packages\Constellation.Html.3.0.5519.21831\lib\net45\Constellation.Html.dll</HintPath>
     </Reference>
-    <Reference Include="Constellation.Web, Version=1.5.5208.23164, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="Constellation.Web, Version=3.0.5519.21704, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>packages\Constellation.Web.1.5.5208.23164\lib\net45\Constellation.Web.dll</HintPath>
+      <HintPath>packages\Constellation.Web.3.0.5519.21704\lib\net45\Constellation.Web.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>

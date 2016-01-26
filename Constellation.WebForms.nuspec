@@ -16,7 +16,7 @@
 		
 		PaginationControl - Simple control to manage the pagination of a multi-page result set.
 	</description>
-	<releaseNotes>Initial NuGet release.</releaseNotes>
+	<releaseNotes>Bringing development to VS2013</releaseNotes>
 	<copyright>Copyright 2014</copyright>
 	<tags>Sitecore</tags>
   </metadata>
